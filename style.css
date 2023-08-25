@@ -1,0 +1,54 @@
+body {
+  font-family: Nunito, sans-serif;
+  background-color: rgba(255, 198, 146, 0.76);
+}
+
+.heading {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-bot {
+  padding-top: 1%;
+  align-self: center;
+  width: 60%;
+  font-size: 20px;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  padding-left: 48px;
+}
+.table_of_contents {
+  /* height: 100vh; */
+}
+.table_of_contents-top {
+  text-align: center;
+}
+.table_of_contents-bot {
+  padding-top: 12px;
+}
+.assignment_1-top {
+  text-align: center;
+}
+.assignment_1-bot {
+  padding: 12px;
+}
+.toc-list {
+  list-style: none;
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+#heading-name {
+  font-size: 48px;
+}
+
+#heading-picture {
+  border-radius: 50%;
+}
